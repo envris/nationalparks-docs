@@ -2,7 +2,7 @@
 
 Documentation for Parks Australia's commercial partners.
 
-These can be edited online directly from github (using the little pencil icon, if you are logged in with appropriate permissions), or using prose http://prose.io/envris/nationalparks-docs
+These can be edited online directly from github (using the little pencil icon, if you are logged in with appropriate permissions), or the usual git way. The .rst files are in "reStructured Text" format (more info http://docutils.sourceforge.net/docs/ref/rst/introduction.html).
 
 ## Commercial Tour Operators
 
