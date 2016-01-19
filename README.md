@@ -4,7 +4,7 @@ Documentation for Parks Australia's commercial partners.
 
 These can be edited online directly from github (using the little pencil icon, if you are logged in with appropriate permissions), or using prose http://prose.io/envris/nationalparks-docs
 
-** Commercial Tour Operators
+## Commercial Tour Operators
 
 This documentation is required first, due to pending user review.
 
