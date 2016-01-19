@@ -1,7 +1,14 @@
+# dev environment
+*~
+\#*\#
+static_root/
+.ipynb_checkpoints/
+_junk/
+run.sh
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
 
 # C extensions
 *.so
@@ -43,7 +50,6 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
-.hypothesis/
 
 # Translations
 *.mo
@@ -53,7 +59,30 @@ coverage.xml
 *.log
 
 # Sphinx documentation
-docs/_build/
+tech_docs/_build/
 
 # PyBuilder
 target/
+
+# OSX
+.DS_Store
+
+
+# pyCharm
+.idea
+
+# Virtualenv
+.venv
+.*_venv/
+
+# local files
+db.sqlite3
+static_root
+bower_components
+nationalparks/static/uploads
+
+# secret files
+generated_secret_key.py
+*secret*
+*.pem
+
