@@ -1,6 +1,17 @@
 Introduction
 ============
 
+.. graphviz::
+
+   digraph d {
+      menu;
+      search_ticket;
+      menu -> search_ticket;
+      search_ticket -> search_results;
+      search_results -> manage_ticket;
+   }
+
+
 Parks Australia eTicketing system is a simple way for visitors to Kakadu National Park to purchase a ticket online, from retail shopfronts and through other partnerships such as Commercial Tour Operators.
 
 It allows Independant Travelers to purchase tickets ahead of time, and modify tickets to suite their changing travel plans. It also allows Commercial Tour Operators to purchase tickets on a just-in-time basis to avoid the cost of keeping pre-purchased tickets in stock. It also allows retailers the same convenience, the ability to sell tickets without having to invest in stock.
