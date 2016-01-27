@@ -4,12 +4,29 @@ Introduction
 .. graphviz::
 
    digraph d {
-      menu;
-      search_ticket;
-      menu -> search_ticket;
-      search_ticket -> search_results;
-      search_results -> manage_ticket;
+      subgraph cluster_loggedin {
+         label="logged in";
+         menu;
+	 scan_qr_when_logged_in;
+	 scan_qr_when_logged_in -> manage_ticket;
+         search_ticket;
+         menu -> search_ticket;
+         search_ticket -> search_results [label="keyword"];
+	 search_ticket -> manage_ticket [label="GUID"];
+         search_results -> manage_ticket;
+      }
+      subgraph cluster_not_loggedin {
+         label="not logged in";
+	 login;
+	 scan_qr_when_not_logged_in -> view_ticket;
+         view_ticket;
+	 login_from_view_ticket;
+	 view_ticket -> login_from_view_ticket;
+      }
+      login -> menu;
+      login_from_view_ticket -> manage_ticket;
    }
+
 
 
 Parks Australia eTicketing system is a simple way for visitors to Kakadu National Park to purchase a ticket online, from retail shopfronts and through other partnerships such as Commercial Tour Operators.
