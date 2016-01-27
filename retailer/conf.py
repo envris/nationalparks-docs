@@ -1,7 +1,7 @@
 import sys
 import os
 import shlex
-extensions = []
+extensions = ['sphinx.ext.graphviz',]
 templates_path = ['_templates']
 source_suffix = '.rst'
 master_doc = 'index'
