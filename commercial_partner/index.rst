@@ -10,6 +10,9 @@ User Manual - Commercial Partners
    :maxdepth: 2
 
    introduction
+   logging_in
+   menu
+   roles_and_responsabilities
    howto_apply_to_join_org
    howto_create_new_account_by_invitation
    howto_approve_new_account
