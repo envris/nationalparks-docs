@@ -3,7 +3,7 @@
 Logging in
 ==========
 
-Normaly, a user is a member of only one organisation, but it is
+Normaly a user is a member of only one organisation, but it is
 possible for them to be in more than one. A user can have different
 roles in  organisations, such as Admin, Guide and Sales Agent.
 There is more information about this in
@@ -67,11 +67,11 @@ to the correct page.
 +--------+-------+-------+------------+--------------------------------+
 | action | Admin | Guide | SalesAgent | Page                           |
 +========+=======+=======+============+================================+
-| login  | 0     | 2+    | 0          | select CTO -> CTO Home         |
+| login  | 0     | 2+    | 0          | Select CTO -> CTO Home         |
 +--------+-------+-------+------------+--------------------------------+
-| login  | 2+    | 0     | 0          | select Org -> Org Home         |
+| login  | 2+    | 0     | 0          | Select Org -> Org Home         |
 +--------+-------+-------+------------+--------------------------------+
-| login  | 0     | 0     | 2+         | select Retail -> Retail Home   |
+| login  | 0     | 0     | 2+         | Select Retail -> Retail Home   |
 +--------+-------+-------+------------+--------------------------------+
 
 Those unusual cases require aditional pages:
@@ -96,7 +96,7 @@ Sales agent for the same organisation, they would not have to make that choice.
 +========+=======+=======+============+============================================+
 | login  | 0     | 1     | 1          | Org Home (if same org)                     |
 +--------+-------+-------+------------+--------------------------------------------+
-| login  | 0     | 1     | 1          | select Org (if different orgs) -> Org Home |
+| login  | 0     | 1     | 1          | Select Org (if different orgs) -> Org Home |
 +--------+-------+-------+------------+--------------------------------------------+
 
 In the more complicated combinations, the user would have to select the
@@ -105,9 +105,9 @@ organisation they are acting on behalf of when they log in.
 +--------+-------+-------+------------+--------------------------------+
 | action | Admin | Guide | SalesAgent | Page                           |
 +========+=======+=======+============+================================+
-| login  | 0+    | 2+    | 1+         | select Org -> Org Home         |
+| login  | 0+    | 2+    | 1+         | Select Org -> Org Home         |
 +--------+-------+-------+------------+--------------------------------+
-| login  | 0+    | 1+    | 2+         | select Org -> Org Home         |
+| login  | 0+    | 1+    | 2+         | Select Org -> Org Home         |
 +--------+-------+-------+------------+--------------------------------+
 
 
@@ -116,7 +116,7 @@ Visualising the login logic
 
 Overall, this diagram shows the different naviation paths from logging in.
 It looks complicated because it covers all possible situations, however each
-user would only experience one path based on their personal circumstances,
+user would only experience one path (based on their personal circumstances),
 so it should not be a complicated experience for them.
 
 .. graphviz::
