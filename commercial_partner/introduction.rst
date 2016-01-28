@@ -6,8 +6,8 @@ Parks Australia eTicketing system is a simple way for visitors to Kakadu Nationa
 It allows Independant Travelers to purchase tickets ahead of time, and modify tickets to suite their changing travel plans. It also allows Commercial Tour Operators to purchase tickets on a just-in-time basis to avoid the cost of keeping pre-purchased tickets in stock. It also allows retailers the same convenience, the ability to sell tickets without having to invest in stock.
 
 
-Register your organisation as an eTicket Reseller
--------------------------------------------------
+Register your organisation as a Commercial Partner
+--------------------------------------------------
 
 If you organisation is not already Registered as a Commercial Partner then contact Parks Australia. This only needs to be done once per organisation.
 
