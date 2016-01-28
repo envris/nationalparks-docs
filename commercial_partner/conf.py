@@ -6,7 +6,7 @@ templates_path = ['_templates']
 source_suffix = '.rst'
 master_doc = 'index'
 
-project = u'eTicketing Manual - Retail'
+project = u'eTicketing Manual - Commercial Partners'
 copyright = u'2016, Parks Australia'
 author = u'Parks Australia'
 
@@ -17,10 +17,8 @@ language = None
 exclude_patterns = ['_build']
 pygments_style = 'sphinx'
 todo_include_todos = False
-#html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-#htmlhelp_basename = 'UserManual-CommercialPartnersdoc'
 latex_elements = {
 'papersize': 'a4paper',
 # The font size ('10pt', '11pt' or '12pt').
@@ -28,7 +26,7 @@ latex_elements = {
 }
 
 latex_documents = [
-  (master_doc, 'UserManual-Retail.tex', u'eTicketing Manual - Retail',
+  (master_doc, 'UserManual-CommercialPartner.tex', u'eTicketing Manual - Commercial Partners',
    u'Parks Australia', 'manual'),
 ]
 
